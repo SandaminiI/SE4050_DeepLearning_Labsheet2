@@ -1,15 +1,12 @@
 1. What happens when the number of hidden nodes increase?
 
 For very few nodes (1–2), the model underfits and accuracy is low.
-
 Increasing hidden nodes improves accuracy as the model captures more complex decision boundaries.
-
 Too many nodes (e.g., 50) can cause overfitting, where training accuracy is high but test accuracy may not improve.
 
 2. Pattern of accuracy when hidden nodes increase:
 
 Accuracy increases quickly from very small hidden sizes (1–5).
-
 After a certain point, improvement slows down.
-
 Very large hidden layers can cause unstable decision boundaries and overfitting, reducing generalization performance.
+
